@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------------------------------------------------------------- */
+
+:root {
+    --background-color: #FAF8EF;
+    --game-color: #BBADA0;
+    --cell-color: #CBC2B3;
+    --text-color: #777165;
+    --secondary-color: #8D7B65;
+    --2-color: #EEE6DB;
+    --4-color: #ECE0C8;
+    --8-color: #EFB27C;
+    --16-color: #F29667;
+    --32-color: #F37D63;
+    --64-color: #F46042;
+    --128-color: #EACE76;
+    --256-color: #EDCB67;
+    --512-color: #EAC75C;
+    --1024-color: #E7C257;
+    --2048-color: #E8BE4E;
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#center {
+    background-color: var(--game-color);
+    height: 94vmin;
+    width: 94vmin;
+    border-radius: 1vmin;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vmin;
+    width: 92vmin;
+    height: 92vmin;
+}
+
+.grid-item {
+    display: flex;
+    background-color: var(--cell-color);
+    margin: 1vmin;
+    height: 21vmin;
+    width: 21vmin;
+    border-radius: 1vmin;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 8vmin;
+}
+
+#n2 {
+    background-color: var(--2-color);
+}
+
+#n4 {
+    background-color: var(--4-color);
+}
+
+#n8 {
+    background-color: var(--8-color);
+    color: var(--background-color);
+}
+
+#n16 {
+    background-color: var(--16-color);
+    color: var(--background-color);
+}
+
+#n32 {
+    background-color: var(--32-color);
+    color: var(--background-color);
+}
+
+#n64 {
+    background-color: var(--64-color);
+    color: var(--background-color);
+}
+
+#n128 {
+    background-color: var(--128-color);
+    color: var(--background-color);
+}
+
+#n256 {
+    background-color: var(--256-color);
+    color: var(--background-color);
+}
+
+#n512 {
+    background-color: var(--512-color);
+    color: var(--background-color);
+}
+
+#n1024 {
+    background-color: var(--1024-color);
+    color: var(--background-color);
+    font-size: 8vmin;
+}
+
+#n2048 {
+    background-color: var(--2048-color);
+    color: var(--background-color);
+    font-size: 8vmin;
+}
+
+#n4096 {
+    background-color: var(--4096-color);
+    font-size: 8vmin;
+}
+
+#n8192 {
+    background-color: var(--8192-color);
+    font-size: 8vmin;
+}
+
+#n16384 {
+    background-color: var(--16384-color);
+    font-size: 7vmin;
+}
+
+#n32768 {
+    background-color: var(--32768-color);
+    font-size: 7vmin;
+}
+
+#n65536 {
+    background-color: var(--65536-color);
+    font-size: 7vmin;
+}
